@@ -5,18 +5,12 @@ Please! Use Postman to test this task
 ```bash
 # build
 $ docker-compose up
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
 ## Request example
 
 <hr/>
-Request POST
-http://localhost:5000/api/registration
+Request POST http://localhost:5000/api/registration
 
 Body:
 
@@ -215,8 +209,8 @@ Response:
 }
 ```
 
-    if yu Regular User: 
-    
+    if you Regular User: 
+
 ```JSON
 {
     "_id": "652cf723b6682cf1dd07bedc",
@@ -233,9 +227,7 @@ Response:
 
 Request POST http://localhost:5000/api/changeboss
 
-refreshToken from req.cookies;
-
-Response: If you admin:
+Body: 
 
 ```JSON
 {
@@ -245,7 +237,7 @@ Response: If you admin:
 }
 ```
 
-If you boss:
+Response: 
 
 ```JSON
 {
